@@ -1,6 +1,6 @@
 def binary_search(arr, low, high, x): 
   
-    # Check base case 
+    # Check first case 
     if high >= low: 
   
         mid = (high + low) // 2
@@ -23,7 +23,7 @@ def binary_search(arr, low, high, x):
         return -1
   
 # Test array 
-arr = [ 2, 3, 4, 10, 40 ] 
+arr = [1,2,3,4,5] 
 x = 10
   
 # Function call 
