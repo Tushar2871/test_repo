@@ -1,3 +1,4 @@
+# this is a program for binary search
 def binary_search(arr, low, high, x): 
   
     # Check first case 
